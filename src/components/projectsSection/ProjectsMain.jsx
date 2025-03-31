@@ -8,28 +8,28 @@ const projects = [
     name: "Live Code Editor",
     year: "Mar2023",
     align: "right",
-    image: "../../public/images/code-review-prj..png",
-    link: "#",
+    image: "/portfolio-web/images/code-review-prj..png",
+    link: "https://sonux-jatav.github.io/minor-project/",
   },
   {
     name: "Uber Clone",
     year: "Sept2023",
     align: "left",
-    image: "../../public/images/uber-prj.png",
+    image: "/portfolio-web/images/uber-prj.png",
     link: "#",
   },
   {
     name: "React Portfolio Website",
     year: "Jan2024",
     align: "right",
-    image: "../../public/images/skills.avif",
+    image: "/portfolio-web/images/skills.avif",
     link: "#",
   },
   {
     name: "Employee Management System",
     year: "May2024",
     align: "left",
-    image: "../../public/images/employe-mgt-prj..png",
+    image: "/portfolio-web/images/employe-mgt-prj..png",
     link: "#",
   },
 ];
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
