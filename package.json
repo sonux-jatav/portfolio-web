@@ -1,5 +1,5 @@
-{   
-  "homepage": "https://github.com/sonux-jatav/portfolio-web.git",
+{
+  "homepage": "https://sonux-jatav.github.io/portfolio-web/",
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
@@ -18,7 +19,6 @@
     "@tailwindcss/vite": "^4.0.17",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^12.6.2",
-    "gh-pages": "^6.3.0",
     "next": "^15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -35,6 +35,7 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.17",
