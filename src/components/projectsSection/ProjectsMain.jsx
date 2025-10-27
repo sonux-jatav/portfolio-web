@@ -6,25 +6,25 @@ import { fadeIn } from "../../framerMotion/variants";
 const projects = [
  
   {
-    name: "TechPrep Project",
+    name: "Job Preparation Web app",
     year: "Jul2025",
     align: "left",
-    image: "/portfolio-web/images/image (13).png",
+    image: "/portfolio-web/images/techPrepApk.png",
     link: "https://job-preparation-3d91.onrender.com",
   },
   {
-    name: "React Portfolio Website",
+    name: "Personal Portfolio Website",
     year: "Jan2024",
     align: "right",
-    image: "/portfolio-web/images/skills.avif",
+    image: "/portfolio-web/images/portfolioSS.png",
     link: "#",
   },
   {
     name: "Resume Builder",
-    year: "May2024",
+    year: "Oct2024",
     align: "left",
-    image: "/portfolio-web/images/image (14).png",
-    link: "https://resume-maker-project-main.onrender.com/",
+    image: "/portfolio-web/images/resumeBuilder.png",
+    link: "https://resume-builder-eipr.onrender.com/",
   },
   {
     name: "Live Code Editor",

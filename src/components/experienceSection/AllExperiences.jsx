@@ -6,7 +6,7 @@ import { fadeIn } from "../../framerMotion/variants";
 const experiences = [
   {
     job: "Data Structures & Algorithms in C++",
-    company: "Platform: CodeHelp by Love Babbar",
+    company: "Platform: CodeHelp",
     date: "2024 - Present",
     responsibilities: [
       "Mastered recursion, linked lists, trees, graphs, and DP.",
@@ -25,7 +25,7 @@ const experiences = [
     ],
   },
   {
-    job: "Python for Data Science & Machine Learning",
+    job: "Python",
     company: "Platform: YouTube",
     date: "2023 - Present",
     responsibilities: [
